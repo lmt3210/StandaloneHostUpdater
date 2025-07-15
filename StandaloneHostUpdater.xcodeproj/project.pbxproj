@@ -1,0 +1,393 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		46690B802E1F1CCE00194C95 /* NSFileManager+DirectoryLocations.m in Sources */ = {isa = PBXBuildFile; fileRef = 46690B7F2E1F1CCE00194C95 /* NSFileManager+DirectoryLocations.m */; };
+		46F8ADD72943B3BF00715FC0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 46F8ADD62943B3BF00715FC0 /* AppDelegate.m */; };
+		46F8ADD92943B3C000715FC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46F8ADD82943B3C000715FC0 /* Assets.xcassets */; };
+		46F8ADDC2943B3C000715FC0 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 46F8ADDA2943B3C000715FC0 /* MainMenu.xib */; };
+		46F8ADDF2943B3C000715FC0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 46F8ADDE2943B3C000715FC0 /* main.m */; };
+		46F8ADEE2943B47400715FC0 /* shup-64.png in Resources */ = {isa = PBXBuildFile; fileRef = 46F8ADE72943B47400715FC0 /* shup-64.png */; };
+		46F8ADEF2943B47400715FC0 /* shup-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 46F8ADE82943B47400715FC0 /* shup-32.png */; };
+		46F8ADF02943B47400715FC0 /* shup-16.png in Resources */ = {isa = PBXBuildFile; fileRef = 46F8ADE92943B47400715FC0 /* shup-16.png */; };
+		46F8ADF12943B47400715FC0 /* shup-128.png in Resources */ = {isa = PBXBuildFile; fileRef = 46F8ADEA2943B47400715FC0 /* shup-128.png */; };
+		46F8ADF22943B47400715FC0 /* shup-1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 46F8ADEB2943B47400715FC0 /* shup-1024.png */; };
+		46F8ADF32943B47400715FC0 /* shup-256.png in Resources */ = {isa = PBXBuildFile; fileRef = 46F8ADEC2943B47400715FC0 /* shup-256.png */; };
+		46F8ADF42943B47400715FC0 /* shup-512.png in Resources */ = {isa = PBXBuildFile; fileRef = 46F8ADED2943B47400715FC0 /* shup-512.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		46690B7E2E1F1CCE00194C95 /* NSFileManager+DirectoryLocations.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+DirectoryLocations.h"; sourceTree = "<group>"; };
+		46690B7F2E1F1CCE00194C95 /* NSFileManager+DirectoryLocations.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+DirectoryLocations.m"; sourceTree = "<group>"; };
+		46690BDF2E1FD14000194C95 /* LTLog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTLog.h; sourceTree = "<group>"; };
+		46F8ADD22943B3BF00715FC0 /* StandaloneHostUpdater.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StandaloneHostUpdater.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		46F8ADD52943B3BF00715FC0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		46F8ADD62943B3BF00715FC0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		46F8ADD82943B3C000715FC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		46F8ADDB2943B3C000715FC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		46F8ADDD2943B3C000715FC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46F8ADDE2943B3C000715FC0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		46F8ADE02943B3C000715FC0 /* StandaloneHostUpdater.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = StandaloneHostUpdater.entitlements; sourceTree = "<group>"; };
+		46F8ADE72943B47400715FC0 /* shup-64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shup-64.png"; sourceTree = "<group>"; };
+		46F8ADE82943B47400715FC0 /* shup-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shup-32.png"; sourceTree = "<group>"; };
+		46F8ADE92943B47400715FC0 /* shup-16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shup-16.png"; sourceTree = "<group>"; };
+		46F8ADEA2943B47400715FC0 /* shup-128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shup-128.png"; sourceTree = "<group>"; };
+		46F8ADEB2943B47400715FC0 /* shup-1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shup-1024.png"; sourceTree = "<group>"; };
+		46F8ADEC2943B47400715FC0 /* shup-256.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shup-256.png"; sourceTree = "<group>"; };
+		46F8ADED2943B47400715FC0 /* shup-512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shup-512.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		46F8ADCF2943B3BF00715FC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		46F8ADC92943B3BF00715FC0 = {
+			isa = PBXGroup;
+			children = (
+				46F8ADE02943B3C000715FC0 /* StandaloneHostUpdater.entitlements */,
+				46F8ADD42943B3BF00715FC0 /* Source */,
+				46F8ADF52943B64A00715FC0 /* Resources */,
+				46F8ADD32943B3BF00715FC0 /* Products */,
+			);
+			sourceTree = "<group>";
+			wrapsLines = 0;
+		};
+		46F8ADD32943B3BF00715FC0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				46F8ADD22943B3BF00715FC0 /* StandaloneHostUpdater.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		46F8ADD42943B3BF00715FC0 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				46F8ADD52943B3BF00715FC0 /* AppDelegate.h */,
+				46F8ADD62943B3BF00715FC0 /* AppDelegate.m */,
+				46690B7E2E1F1CCE00194C95 /* NSFileManager+DirectoryLocations.h */,
+				46690B7F2E1F1CCE00194C95 /* NSFileManager+DirectoryLocations.m */,
+				46F8ADDA2943B3C000715FC0 /* MainMenu.xib */,
+				46F8ADDE2943B3C000715FC0 /* main.m */,
+				46690BDF2E1FD14000194C95 /* LTLog.h */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		46F8ADE62943B46000715FC0 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				46F8ADE92943B47400715FC0 /* shup-16.png */,
+				46F8ADE82943B47400715FC0 /* shup-32.png */,
+				46F8ADE72943B47400715FC0 /* shup-64.png */,
+				46F8ADEA2943B47400715FC0 /* shup-128.png */,
+				46F8ADEC2943B47400715FC0 /* shup-256.png */,
+				46F8ADED2943B47400715FC0 /* shup-512.png */,
+				46F8ADEB2943B47400715FC0 /* shup-1024.png */,
+			);
+			path = Icons;
+			sourceTree = "<group>";
+		};
+		46F8ADF52943B64A00715FC0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				46F8ADDD2943B3C000715FC0 /* Info.plist */,
+				46F8ADE62943B46000715FC0 /* Icons */,
+				46F8ADD82943B3C000715FC0 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		46F8ADD12943B3BF00715FC0 /* StandaloneHostUpdater */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46F8ADE32943B3C000715FC0 /* Build configuration list for PBXNativeTarget "StandaloneHostUpdater" */;
+			buildPhases = (
+				46F8ADCE2943B3BF00715FC0 /* Sources */,
+				46F8ADCF2943B3BF00715FC0 /* Frameworks */,
+				46F8ADD02943B3BF00715FC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StandaloneHostUpdater;
+			productName = StandaloneHostUpdater;
+			productReference = 46F8ADD22943B3BF00715FC0 /* StandaloneHostUpdater.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46F8ADCA2943B3BF00715FC0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1600;
+				ORGANIZATIONNAME = "Larry Taylor";
+				TargetAttributes = {
+					46F8ADD12943B3BF00715FC0 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 46F8ADCD2943B3BF00715FC0 /* Build configuration list for PBXProject "StandaloneHostUpdater" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 46F8ADC92943B3BF00715FC0;
+			productRefGroup = 46F8ADD32943B3BF00715FC0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				46F8ADD12943B3BF00715FC0 /* StandaloneHostUpdater */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		46F8ADD02943B3BF00715FC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46F8ADEF2943B47400715FC0 /* shup-32.png in Resources */,
+				46F8ADF32943B47400715FC0 /* shup-256.png in Resources */,
+				46F8ADEE2943B47400715FC0 /* shup-64.png in Resources */,
+				46F8ADD92943B3C000715FC0 /* Assets.xcassets in Resources */,
+				46F8ADF12943B47400715FC0 /* shup-128.png in Resources */,
+				46F8ADF22943B47400715FC0 /* shup-1024.png in Resources */,
+				46F8ADF42943B47400715FC0 /* shup-512.png in Resources */,
+				46F8ADDC2943B3C000715FC0 /* MainMenu.xib in Resources */,
+				46F8ADF02943B47400715FC0 /* shup-16.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		46F8ADCE2943B3BF00715FC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46F8ADDF2943B3C000715FC0 /* main.m in Sources */,
+				46F8ADD72943B3BF00715FC0 /* AppDelegate.m in Sources */,
+				46690B802E1F1CCE00194C95 /* NSFileManager+DirectoryLocations.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		46F8ADDA2943B3C000715FC0 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46F8ADDB2943B3C000715FC0 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		46F8ADE12943B3C000715FC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		46F8ADE22943B3C000715FC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		46F8ADE42943B3C000715FC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = StandaloneHostUpdater.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 7;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MARKETING_VERSION = 1.1.5;
+				PRODUCT_BUNDLE_IDENTIFIER = com.larrymtaylor.StandaloneHostUpdater;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		46F8ADE52943B3C000715FC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = StandaloneHostUpdater.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 7;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MARKETING_VERSION = 1.1.5;
+				PRODUCT_BUNDLE_IDENTIFIER = com.larrymtaylor.StandaloneHostUpdater;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		46F8ADCD2943B3BF00715FC0 /* Build configuration list for PBXProject "StandaloneHostUpdater" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46F8ADE12943B3C000715FC0 /* Debug */,
+				46F8ADE22943B3C000715FC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46F8ADE32943B3C000715FC0 /* Build configuration list for PBXNativeTarget "StandaloneHostUpdater" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46F8ADE42943B3C000715FC0 /* Debug */,
+				46F8ADE52943B3C000715FC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 46F8ADCA2943B3BF00715FC0 /* Project object */;
+}

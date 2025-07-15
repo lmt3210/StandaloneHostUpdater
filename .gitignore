@@ -1,0 +1,11 @@
+
+# General
+.DS_Store
+.p4config
+
+# Xcode user settings
+xcuserdata/
+
+# Build scripts and supporting files
+app.plist
+
