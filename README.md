@@ -11,6 +11,10 @@ StandaloneHost after it has been updated.
 StandaloneHostUpdater is packaged with StandaloneHost so there is no
 separate download.
 
+## Dependencies
+StandaloneHostUpdater requires LTCommon. It is available on GitHib 
+[here](https://github.com/lmt3210/LTCommon).
+
 ## Contributing
 
 Contributions that enhance StandaloneHostUpdater or fix bugs are very much 

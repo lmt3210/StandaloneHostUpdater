@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		46690B802E1F1CCE00194C95 /* NSFileManager+DirectoryLocations.m in Sources */ = {isa = PBXBuildFile; fileRef = 46690B7F2E1F1CCE00194C95 /* NSFileManager+DirectoryLocations.m */; };
+		4685CA822CC59366001A9EA1 /* NSFileManager+DirectoryLocations.m in Sources */ = {isa = PBXBuildFile; fileRef = 4685CA812CC59366001A9EA1 /* NSFileManager+DirectoryLocations.m */; };
 		46F8ADD72943B3BF00715FC0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 46F8ADD62943B3BF00715FC0 /* AppDelegate.m */; };
 		46F8ADD92943B3C000715FC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46F8ADD82943B3C000715FC0 /* Assets.xcassets */; };
 		46F8ADDC2943B3C000715FC0 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 46F8ADDA2943B3C000715FC0 /* MainMenu.xib */; };
@@ -22,9 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		46690B7E2E1F1CCE00194C95 /* NSFileManager+DirectoryLocations.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+DirectoryLocations.h"; sourceTree = "<group>"; };
-		46690B7F2E1F1CCE00194C95 /* NSFileManager+DirectoryLocations.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+DirectoryLocations.m"; sourceTree = "<group>"; };
-		46690BDF2E1FD14000194C95 /* LTLog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTLog.h; sourceTree = "<group>"; };
+		4685CA802CC59366001A9EA1 /* NSFileManager+DirectoryLocations.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "NSFileManager+DirectoryLocations.h"; path = "../LTCommon/NSFileManager+DirectoryLocations.h"; sourceTree = SOURCE_ROOT; };
+		4685CA812CC59366001A9EA1 /* NSFileManager+DirectoryLocations.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "NSFileManager+DirectoryLocations.m"; path = "../LTCommon/NSFileManager+DirectoryLocations.m"; sourceTree = SOURCE_ROOT; };
 		46F8ADD22943B3BF00715FC0 /* StandaloneHostUpdater.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StandaloneHostUpdater.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		46F8ADD52943B3BF00715FC0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		46F8ADD62943B3BF00715FC0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -40,6 +39,7 @@
 		46F8ADEB2943B47400715FC0 /* shup-1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shup-1024.png"; sourceTree = "<group>"; };
 		46F8ADEC2943B47400715FC0 /* shup-256.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shup-256.png"; sourceTree = "<group>"; };
 		46F8ADED2943B47400715FC0 /* shup-512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shup-512.png"; sourceTree = "<group>"; };
+		46F8ADF72943B7BF00715FC0 /* LTLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LTLog.h; path = ../LTCommon/LTLog.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +58,7 @@
 			children = (
 				46F8ADE02943B3C000715FC0 /* StandaloneHostUpdater.entitlements */,
 				46F8ADD42943B3BF00715FC0 /* Source */,
+				46F8ADF62943B7A500715FC0 /* Common */,
 				46F8ADF52943B64A00715FC0 /* Resources */,
 				46F8ADD32943B3BF00715FC0 /* Products */,
 			);
@@ -77,11 +78,8 @@
 			children = (
 				46F8ADD52943B3BF00715FC0 /* AppDelegate.h */,
 				46F8ADD62943B3BF00715FC0 /* AppDelegate.m */,
-				46690B7E2E1F1CCE00194C95 /* NSFileManager+DirectoryLocations.h */,
-				46690B7F2E1F1CCE00194C95 /* NSFileManager+DirectoryLocations.m */,
 				46F8ADDA2943B3C000715FC0 /* MainMenu.xib */,
 				46F8ADDE2943B3C000715FC0 /* main.m */,
-				46690BDF2E1FD14000194C95 /* LTLog.h */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -108,6 +106,16 @@
 				46F8ADD82943B3C000715FC0 /* Assets.xcassets */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		46F8ADF62943B7A500715FC0 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				4685CA802CC59366001A9EA1 /* NSFileManager+DirectoryLocations.h */,
+				4685CA812CC59366001A9EA1 /* NSFileManager+DirectoryLocations.m */,
+				46F8ADF72943B7BF00715FC0 /* LTLog.h */,
+			);
+			name = Common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -189,7 +197,7 @@
 			files = (
 				46F8ADDF2943B3C000715FC0 /* main.m in Sources */,
 				46F8ADD72943B3BF00715FC0 /* AppDelegate.m in Sources */,
-				46690B802E1F1CCE00194C95 /* NSFileManager+DirectoryLocations.m in Sources */,
+				4685CA822CC59366001A9EA1 /* NSFileManager+DirectoryLocations.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
